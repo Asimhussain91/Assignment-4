@@ -1,0 +1,19 @@
+void main() {
+  List<int> list = [10, 4, 2, 9, 7, 5, 3, 8, 6];
+  int max = list[0];
+  int min = list[0];
+  for (int i = 1; i < list.length; i++) {
+    if (list[i] > max) {
+      max = list[i];
+    } else if (list[i] < min) {
+      min = list[i];
+    }
+  }
+  print("The maximum element in the list is ${max}");
+  print("The minimum element in the list is ${min}");
+}
+
+
+output:
+The maximum element in the list is 10
+The minimum element in the list is 2

@@ -1,0 +1,16 @@
+void main() {
+  int row = 5;
+  int num = 1;
+  for (int i = 1; i <= row; i++) {
+    print(" " * (row - i) + "$num" * i);
+    num++;
+  }
+}
+
+output:
+
+    1
+   22
+  333
+ 4444
+55555

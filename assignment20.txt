@@ -1,0 +1,14 @@
+void main() {
+  String string = "hello world";
+  int vowelCount = 0;
+  for (int i = 0; i < string.length; i++) {
+    String character = string[i];
+    if (character == "a" || character == "e" || character == "i" || character == "o" || character == "u") {
+      vowelCount++;
+    }
+  }
+  print("The number of vowels in the string is ${vowelCount}");
+}
+
+output:
+The number of vowels in the string is 3

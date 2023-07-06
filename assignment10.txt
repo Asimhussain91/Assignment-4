@@ -1,0 +1,14 @@
+void main() {
+  int number = 5;
+  for (int i = 1; i <= number; i++) {
+    int cube = i * i * i;
+    print("The cube of $i is $cube");
+  }
+}
+
+output:
+The cube of 1 is 1
+The cube of 2 is 8
+The cube of 3 is 27
+The cube of 4 is 64
+The cube of 5 is 125
